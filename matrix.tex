@@ -25,21 +25,22 @@
 8,8,8,8,3,8,3,8,2,0,2,8,3,0,1,4,6,5,2,2,8,1,0,1,8,2,0,2,4,1,0,1,3,0,0,1,8,2,0,0,0,1,8,2,0,1,7,4,1,4,6,5,2
 }}
 
-\node at (-0.50, -0.26) {\colorbox{white}{\scriptsize Mon}};
-\node at (-0.50, -0.78) {\colorbox{white}{\scriptsize Wen}};
-\node at (-0.50, -1.30) {\colorbox{white}{\scriptsize Fri}};
-\node at (0, 0.26) {\colorbox{white}{\scriptsize May}};
-\node at (1.2, 0.26) {\colorbox{white}{\scriptsize Jun}};
-\node at (2.4, 0.26) {\colorbox{white}{\scriptsize Jul}};
-\node at (3.8, 0.26) {\colorbox{white}{\scriptsize Aug}};
-\node at (5.0, 0.26) {\colorbox{white}{\scriptsize Sep}};
-\node at (6.2, 0.26) {\colorbox{white}{\scriptsize Oct}};
-\node at (7.4, 0.26) {\colorbox{white}{\scriptsize Nov}};
-\node at (8.6, 0.26) {\colorbox{white}{\scriptsize Dec}};
-\node at (9.8, 0.26) {\colorbox{white}{\scriptsize Jan}};
-\node at (11.0, 0.26) {\colorbox{white}{\scriptsize Feb}};
-\node at (12.2, 0.26) {\colorbox{white}{\scriptsize Mar}};
-\node at (13.4, 0.26) {\colorbox{white}{\scriptsize Apr}};
+\node at (-0.40, -0.26) {\scriptsize \texttt{Mon}};
+\node at (-0.40, -0.78) {\scriptsize \texttt{Wen}};
+\node at (-0.40, -1.30) {\scriptsize \texttt{Fri}};
+
+\node at (0.10, 0.26) {\scriptsize \texttt{May}};
+\node at (1.14, 0.26) {\scriptsize \texttt{Jun}};
+\node at (2.18, 0.26) {\scriptsize \texttt{Jul}};
+\node at (3.48, 0.26) {\scriptsize \texttt{Aug}};
+\node at (4.52, 0.26) {\scriptsize \texttt{Sep}};
+\node at (5.56, 0.26) {\scriptsize \texttt{Oct}};
+\node at (6.86, 0.26) {\scriptsize \texttt{Nov}};
+\node at (7.90, 0.26) {\scriptsize \texttt{Dec}};
+\node at (9.20, 0.26) {\scriptsize \texttt{Jan}};
+\node at (10.24, 0.26) {\scriptsize \texttt{Feb}};
+\node at (11.28, 0.26) {\scriptsize \texttt{Mar}};
+\node at (12.58, 0.26) {\scriptsize \texttt{Apr}};
 % 循环绘制矩形
 \foreach \row in {1,...,\rows} {
     \foreach \col in {1,...,\cols} {
@@ -54,8 +55,7 @@
         \node[rectangle, rounded corners=2pt, minimum width=\rectWidth cm, minimum height=\rectHeight cm, fill=\currentcolor] at (\x,\y) {};
     }
 }
-\node at (12.2, -1.92) {\colorbox{white}{\scriptsize https://lcpu.club}};
-
+\node at (12.2, -1.92) {\scriptsize \texttt{https://lcpu.club}};
 \end{tikzpicture}
 
 \end{document}
